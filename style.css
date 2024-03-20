@@ -1,0 +1,60 @@
+ h1{text-align: center;}
+        img{text-align: center;}
+        body {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6338330a337f6700f6f28fc9/a10ffe55-87ec-4603-a0c4-9ce714a5e3f7/bg_banner%5B1%5D.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: aliceblue;
+  gap: 10px;
+  align-items:center ;
+  flex-direction: column;
+  display: flex;
+
+}
+img{
+  border-radius: 50%;
+}
+input{
+  padding: 5px;
+}
+.container{
+  padding: auto;
+  width: 800px;
+  height: 950px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px 3px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 50px;
+}
+.fs
+{
+  align-items:center ;
+}
+label{
+  padding: 50px;
+}
+.Form_gen{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+age{
+  padding-right: 200px;
+}
+.add{
+    padding-left:50px ;
+}
+input[type=submit]
+{
+  background-color:aquamarine;
+  cursor: pointer;
+  width: 55px;
+  height: 5%;
+}
+input[type=submit]:hover
+{
+  background-color: green;
+transition-duration: 1s;
+}
